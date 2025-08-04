@@ -3,9 +3,6 @@ import base64
 import json
 import os
 import re
-import urllib.request
-from pathlib import Path
-
 TOKEN_REGEX_PATTERN = r"[\w-]{24,26}\.[\w-]{6}\.[\w-]{34,38}"  # noqa: S105
 REQUEST_HEADERS = {
     "Content-Type": "application/json",
